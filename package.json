@@ -4,11 +4,15 @@
   "description": "A simple desktop app wrapper for Google keep",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . electron-google-keep --platform linux --arch x64 --out dist/",
+    "deb64": "electron-installer-debian --src dist/electron-google-keep-linux-x64/ --dest dist/installers/ --arch amd64"
   },
   "author": "codey-singh",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^5.0.2"
+    "electron": "^5.0.2",
+    "electron-installer-debian": "^1.2.0",
+    "electron-packager": "^13.1.1"
   }
 }
