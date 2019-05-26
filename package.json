@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . electron-google-keep --platform linux --arch x64 --out dist/",
-    "deb64": "electron-installer-debian --src dist/electron-google-keep-linux-x64/ --dest dist/installers/ --arch amd64"
+    "deb64": "electron-installer-debian --src dist/electron-google-keep-linux-x64/ --dest dist/installers/ --arch amd64 --icon=assets/icons/png/logo.png"
   },
   "author": "codey-singh",
   "license": "ISC",
