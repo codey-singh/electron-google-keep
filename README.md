@@ -13,7 +13,7 @@ git clone https://github.com/codey-singh/electron-google-keep.git
 
 # Go into the repository
 
-cd electron-quick-start
+cd electron-google-keep
 
 # Install dependencies
 
