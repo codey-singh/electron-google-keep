@@ -1,0 +1,14 @@
+{
+  "name": "electron-google-keep",
+  "version": "1.0.0",
+  "description": "A simple desktop app for Google keep",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "codey-singh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.2"
+  }
+}
