@@ -1,8 +1,8 @@
 {
   "name": "electron-google-keep",
   "version": "1.0.0",
-  "description": "A simple desktop app for Google keep",
-  "main": "index.js",
+  "description": "A simple desktop app wrapper for Google keep",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
