@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require("electron");
-
+const path = require("path");
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win;
@@ -11,7 +11,8 @@ function createWindow() {
     height: 700,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    icon: path.join(__dirname, "assets/icons/png/logo.png")
   });
 
   // and load the index.html of the app.
