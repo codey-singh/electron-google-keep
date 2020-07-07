@@ -11,7 +11,7 @@
   "author": "codey-singh",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^5.0.2",
+    "electron": "^7.2.4",
     "electron-installer-debian": "^1.2.0",
     "electron-packager": "^13.1.1"
   }
